@@ -9,12 +9,14 @@ public:
     {
         cout << "Constructor called" << endl;
     }
-    R(int i){
-        i=i+3;
-        cout<<"i= "<<i<<endl;
+    R(int i)
+    {
+        i = i + 3;
+        cout << "i= " << i << endl;
     }
-    R(int a, int b){
-        cout<<a<<b<<endl;
+    R(int a, int b)
+    {
+        cout << a << b << endl;
     }
     ~R()
     {
@@ -34,7 +36,6 @@ int main()
     R obj2(2);
 
     obj2.rData();
-
 
     // cout<<"Enter your name: "<<endl;
 
