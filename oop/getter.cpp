@@ -17,7 +17,7 @@ class Hero{
         return k;
     }
 };
-
+try
 int main(){
     Hero obj;
     cout<<obj.getHero(34)<<endl;
